@@ -181,9 +181,83 @@ console.log(camper);
 // now if we use let...
 
 let student = "Sheetal";
-let student = "Asher";
+//let student = "Asher"; // TODO: uncomment this!
+//console.log("let the student be: " + student);
+//student = "Asher";
 
 // error is shown in VSC and in the console
+
+/********************************************************/
+/********************************************************/
+
+// Declare a Read-Only Variable with the const Keyword
+
+// const has all the features of let, with a bonus, variables 
+// declared using const are read-only
+
+// constant value = once a variable is assignment, it cannot be reassigned
+
+const FAV_PET = "Cats";
+//FAV_PET = "Dogs"; // error will appear in dev console
+
+// helps so you don't accidentally try to reassign a variable that needs to be constant
+// note - it is helpful and common practice for consts to be all UPPERCASE
+
+/********************************************************/
+/********************************************************/
+
+// Add, Subtract, Multiply, Divide
+
+// Number is a data type in JavaScript = represents numeric data
+
+const SUM = 10 + 10;
+const DIFFERENCE = 45 - 20;
+const QUOTIENT = 66 / 33;
+const PRODUCT = 8 * 10;
+
+/********************************************************/
+/********************************************************/
+
+// Increment/Decrement a Number with JavaScript
+
+let newVar = 47;
+newVar = newVar + 1;
+// this is equivalent to
+newVar++;
+
+newVar = newVar - 1;
+newVar--;
+
+/********************************************************/
+/********************************************************/
+
+// Compound Assignment With Augmented Addition
+
+/* In programming, we can do mathematical operation and assignment in one step
+    Remember = everything on the right of the = is evaluated first
+*/
+
+let v = 1;
+v += 5;
+console.log(v);
+
+// Compound Assignment With Augmented Subtraction
+
+let s = 10;
+s -= 5;
+console.log(s);
+
+// Compound Assignment With Augmented Multiplication
+
+let m = 5;
+m *= 2;
+console.log(m);
+
+// Compound Assignment With Augmented Division
+
+let d = 10;
+d /= 2;
+console.log(d);
 
 /********************************************************/
 /********************************************************/
