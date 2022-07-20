@@ -171,8 +171,24 @@ var camper = "Sheetal";
 var camper = "Asher";
 console.log(camper);
 
+// one of the biggest problems with declaring variables with var,
+// is that you can easily overwrite the variable declaration
+
+// notice that camper is now "Asher"
+
+// in order to solve this potential problem...
+// let
+// now if we use let...
+
+let student = "Sheetal";
+let student = "Asher";
+
+// error is shown in VSC and in the console
+
 /********************************************************/
 /********************************************************/
+
+
 
 /********************************************************/
 /********************************************************/
