@@ -56,6 +56,16 @@ var myName;
 So notice the naming convention, we are using camel case, where it is first word is lower case
 and second work is upper case
 
+You can have multiple different variables:
+*/
+
+var MYVAR;
+var MyVar;
+var myvar;
+
+// but for best practice - use camel case for clarity
+
+/*
 this creates a variable called ourName
 in JS we end statements with semicolons
 variable names can have: 
@@ -108,7 +118,67 @@ console.log("b is equal to: " + b);
 /********************************************************/
 /********************************************************/
 
+// Initializing Variables with the Assignment Operator
 
+/* 
+
+it is common to initialize a variable to an initial value in the same line
+
+*/
+
+var a = 0;
+
+/*
+This creates a new variable and assigns it an initial value of 0
+*/
+
+/********************************************************/
+/********************************************************/
+
+// Declare String Variables
+
+var myFirstName = "Sheetal";
+var myLastName = "Singh"
+
+/********************************************************/
+/********************************************************/
+
+// Understanding Uninitialized Variables
+
+// when JS variables are declared, they have initial value of undefined
+
+var a; // var a = 5;
+var b; // var b = 10;
+var c; // var c = "I am a";
+
+// not working example
+a = a + 1;
+b = b + 5;
+c = c + " String!";
+
+// NaN = Not a Number
+// concatenate string with undefined --> string undefined
+
+// TODO: in order to fix this --> define a, b, and c
+
+
+/********************************************************/
+/********************************************************/
+
+// Difference between var and let keywords
+
+var camper = "Sheetal";
+var camper = "Asher";
+console.log(camper);
+
+/********************************************************/
+/********************************************************/
+
+/********************************************************/
+/********************************************************/
+
+/********************************************************/
+/********************************************************/
 
 /********************************************************/
 /********************************************************/
