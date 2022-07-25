@@ -264,10 +264,24 @@ console.log(d);
 
 // Understanding Boolean Values (go to word doc)
 
-
-
 /********************************************************/
 /********************************************************/
+
+// Examples for if
+var n = 44;
+if (n >= 45) {
+    console.log("This number is greater than or equal to 45");
+} 
+console.log("this number is less than 45");
+
+// if else
+
+var n = 23;
+if (n == 22) {
+    console.log("This number is 22");
+} else {
+    console.log("This number is not 22");
+}
 
 /********************************************************/
 /********************************************************/
