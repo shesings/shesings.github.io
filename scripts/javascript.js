@@ -283,6 +283,117 @@ if (n == 22) {
     console.log("This number is not 22");
 }
 
+
+/********************************************************/
+/********************************************************/
+
+
+// Pop up Box = for alert
+// alert("I am an alert box!"); 
+// notice only the ok option
+
+
+function myFunction() {
+  alert("I am an alert box!");
+}
+
+
+
+// Confirm  box
+// window.confirm("Confirm if everything is correct?");
+// notice it had cancel or ok option
+
+
+function myFunction() {
+  var txt;
+  if (confirm("Press a button!")) {
+    txt = "You pressed OK!";
+  } else {
+    txt = "You pressed Cancel!";
+  }
+  document.getElementById("demo").innerHTML = txt;
+}
+
+
+
+// Prompt Box
+//window.prompt("sometext", "default text");
+
+function myFunction() {
+    let text;
+    let person = prompt("Please enter your name:", "Harry Potter");
+    if (person == null || person == "") {
+      text = "User cancelled the prompt.";
+    } else {
+      text = "Hello " + person + "! How are you today?";
+    }
+    document.getElementById("demo").innerHTML = text;
+  }
+
+
+
+/********************************************************/
+/********************************************************/
+
+// For Loop
+
+var count = 10;
+console.log("Starting Loop");
+         
+for(count = 0; count < 10; count++) {
+    console.log("Current Count : " + count);
+}         
+console.log("Loop stopped!");
+
+/********************************************************/
+/********************************************************/
+
+// While Loop
+
+var i = 0;
+console.log("Starting Loop");
+while (i < 10) {
+    console.log("The number is " + i);
+    i++;
+}
+
+
+/********************************************************/
+/********************************************************/
+
+// Do While Loop
+
+var i = 10;
+console.log("Starting Loop");
+do {
+console.log("The number is " + i);
+i--;
+} while (i > 0);
+
+/********************************************************/
+/********************************************************/
+
+// Arrays
+// this is the constructor
+
+var fruits = ["apple", "orange", "blueberry", "kiwi", "watermelon"];
+fruits[0] = "mango"; // you can change the item even after declaration
+console.log(fruits[0] + " is the first fruit");
+console.log(fruits[1] + " is the second fruit");
+console.log(fruits[2] + " is the third fruit");
+console.log(fruits[3] + " is the fourth fruit");
+console.log(fruits[4] + " is the fifth fruit");
+
+
+
+// number is the index
+
+/********************************************************/
+/********************************************************/
+
+/********************************************************/
+/********************************************************/
+
 /********************************************************/
 /********************************************************/
 
