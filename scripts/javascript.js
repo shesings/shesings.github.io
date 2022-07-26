@@ -384,10 +384,20 @@ console.log(fruits[2] + " is the third fruit");
 console.log(fruits[3] + " is the fourth fruit");
 console.log(fruits[4] + " is the fifth fruit");
 
-
-
 // number is the index
+var i;
+for(i = 0; i < fruits.length; i++) {
+  console.log(fruits[i]);
+}
 
+let text = "<ul>";
+fruits.forEach(thisFunction);
+text += "</ul>";
+document.getElementById("fruitText").innerHTML = text;
+
+function thisFunction(value) {
+  text += "<li>" + value + "</li>";
+}
 /********************************************************/
 /********************************************************/
 
