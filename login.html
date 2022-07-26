@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head> <link href="styles/style.css" rel="stylesheet">
+    <title>JavaScript Login</title>
+    
+</head> 
+<body>
+    <h1>
+        Please Log In!
+        </h1>
+        
+        <form onsubmit="login()">
+            <label>Username: </label><br>
+            <input type="text" id="usernameId" name="username"><br>
+            <label>Password:</label><br>
+            <input type="text" id="passwordId" name="password"><br><br>
+            <input type="button" value="Log In" onclick="validate()">
+          </form> 
+        
+        <div id="result"></div>
+   <script src="scripts/login.js"></script>
+  </body>
+</html>
