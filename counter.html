@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head> <link href="styles/style.css" rel="stylesheet">
+    <title>JavaScript Counter</title>
+    
+</head> 
+<body>
+    <div id="counterId">
+        0
+    </div>
+      
+      <button onclick=decreaseCount()>
+        -
+      </button>
+      
+      <button onclick=increaseCount()>
+       +
+      </button>
+
+      <button onclick=resetCount()>
+        reset
+       </button>
+      <!-- THIS IS IMPORTANT TO HAVE THE SCRIPT TAG LATER -->
+      <!-- because the script is ran before the div can exist -->
+      <script src="scripts/counterScript.js"></script>
+  </body>
+</html>
